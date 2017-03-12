@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-5">
+    <lr-recipe-list (recipeSelected) = "selectedRecipe= $event"></lr-recipe-list>
+</div>
+   <div class="col-md-7">
+     <lr-recipe-detail [selectedRecipe]="selectedRecipe"></lr-recipe-detail>
+</div>
+</div>
